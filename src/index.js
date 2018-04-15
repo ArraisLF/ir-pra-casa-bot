@@ -14,7 +14,7 @@ class EventsController extends TelegramBaseController {
   
   helpAction(scope) {
     let msg = 'Este bot conta o tempo restante para ir para casa. \nUse o comando /tempo para ver o tempo restante.'
-    scope.sendMessage(msg, { parse_mode: 'HTML' });
+    scope.sendMessage(msg);
   }
 
   get routes() {
@@ -28,5 +28,4 @@ class EventsController extends TelegramBaseController {
 chatbot.router
   .when(new TextCommand('/tempo', 'tempo'), new EventsController())
   .when(new TextCommand('/help', 'help'), new EventsController())
-  
 
