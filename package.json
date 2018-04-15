@@ -1,0 +1,19 @@
+{
+  "name": "ir-pra-casa-bot",
+  "version": "1.0.0",
+  "description": "Bot que conta o tempo restante ate ir pra casa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArraisLF/ir-pra-casa-bot.git"
+  },
+  "author": "Luis Fernando Arrais",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArraisLF/ir-pra-casa-bot/issues"
+  },
+  "homepage": "https://github.com/ArraisLF/ir-pra-casa-bot#readme"
+}
